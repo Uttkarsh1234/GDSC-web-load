@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 3vh;
+    z-index: 10;
+}
+
+
+
+.store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store a{
+    text-decoration: none;
+    color: #0c0c0c;
+    padding: 1vw;
+
+}
+.store a:hover{
+    background-color: rgb(36, 126, 210);
+    border-radius: 6px;
+}
+.navb img{
+    width: 21vw;
+    height: 6vh;
+}
+
+.im img{
+    background-color: #FFA5B4;
+    width: 100%;
+    height: 100vh;
+    opacity: 3.8;
+}
+
+.first{
+    background-color: #FFE5B4;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 70vh;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    gap: 2em;
+    padding: 3vh;
+    
+}
+.containers{
+    background-color: #FFAE42;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    height:fit-content;
+    border: 1px solid #0c0c0c;
+    border-radius: 6px;
+}
+
+.container-md p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    opacity: 1.2;    
+    color: white;
+
+}
+
+.containers:hover{
+    height: 50vh;
+    box-shadow:  10px 5px 5px #0c0c0c;
+    justify-content: space-evenly;
+}
+
+.faq{
+    background-color: #FFF1DC ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70vh;
+    position: relative;
+    gap:2em;
+    padding: 3vh;
+}
+
+.faq1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: min-content;
+    border: 1px solid green;
+    border-radius: 6px; 
+    margin-top: 1em;
+
+}
+
+.faq1:hover{
+    height: 50vh;
+    box-shadow: 50px -16px #FFAE42;
+    justify-content: space-evenly;
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: min-content;
+    border: 1px solid blue;
+    border-radius: 6px;
+    margin-top: 6em;
+}
+
+.faqs:hover{
+    height: 50vh;
+    box-shadow: 50px -16px #FFAE42;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 0;
+    z-index: 15;
+    padding: 6vh;
+}
+footer img{
+    background-color: lightgrey;
+    border-radius: 25px;
+    width: 4vw;
+    height: 6vh;
+}
