@@ -1,1 +1,1 @@
-This is my another small Web Project, which is based on GDSC club.
+This is my another small Web Project, which is responsive and  based on GDSC club.
